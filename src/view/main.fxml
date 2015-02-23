@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.Cursor?>
+
+<AnchorPane id="AnchorPane" fx:id="aPane" prefHeight="526.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.Controller">
+    <children>
+      <Button fx:id="btn2" layoutX="195.0" layoutY="97.0" mnemonicParsing="false" onAction="#secondoPulsante" prefHeight="157.0" prefWidth="111.0" text="???" textAlignment="CENTER">
+         <font>
+            <Font name="Rod" size="28.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <Button fx:id="btn3" layoutX="350.0" layoutY="97.0" mnemonicParsing="false" onAction="#terzoPulsante" prefHeight="157.0" prefWidth="111.0" text="???" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font name="Rod" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="36.0" layoutY="97.0" mnemonicParsing="false" onAction="#primoPulsante" prefHeight="157.0" prefWidth="111.0" text="???" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font name="Rod" size="28.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="127.0" layoutY="42.0" text="Gioco delle tre carte" textFill="#68c0ff">
+         <font>
+            <Font name="Broadway" size="23.0" />
+         </font>
+      </Label>
+      <Separator layoutX="111.0" layoutY="286.0" prefHeight="3.0" prefWidth="280.0" />
+      <Label layoutX="71.0" layoutY="397.0" text="Giocate: " textFill="#e32bff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lGiocate" layoutX="164.0" layoutY="397.0" prefHeight="24.0" prefWidth="62.0" textFill="#e32bff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lVinte" layoutX="162.0" layoutY="356.0" prefHeight="24.0" prefWidth="62.0" textFill="#ab29ff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="356.0" text="Vinte: " textFill="#ab29ff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lPerse" layoutX="349.0" layoutY="356.0" prefHeight="24.0" prefWidth="62.0" textFill="#ab29ff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="356.0" text="Perse: " textFill="#ab29ff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="397.0" text="\% Vittorie:" textFill="#e32bff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lPercVittorie" layoutX="369.0" layoutY="397.0" prefHeight="24.0" prefWidth="62.0" textFill="#e32bff">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lVoS" alignment="CENTER" contentDisplay="CENTER" layoutX="102.0" layoutY="299.0" prefHeight="40.0" prefWidth="306.0" textAlignment="CENTER" textFill="#7729ff">
+         <font>
+            <Font name="Broadway" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="replay" layoutX="142.0" layoutY="456.0" mnemonicParsing="false" onAction="#replay" prefHeight="40.0" prefWidth="217.0" text="Rigioca" textFill="#ff617e">
+         <font>
+            <Font name="Goudy Stout" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
